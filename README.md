@@ -154,7 +154,7 @@ What we obtain is the following:
 <img src='./Miscellaneous/yolo_05.png' width='400'/>
 </p>
 
-Therefore the whole architecture is the following:
+Therefore the whole YOLO architecture is the following:
 
 <p align="center">
 <img src='./Miscellaneous/yolo_06.png' width='800'/>
