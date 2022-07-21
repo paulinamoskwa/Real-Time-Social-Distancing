@@ -147,7 +147,8 @@ Every cell predicts a class probability, which actually is a conditional probabi
 <img src='./Miscellaneous/yolo_04.png' width='400'/>
 </p>
 
-These are the bounding boxes weighted by their probabilities for containing that object. We get a huge amount of boxes: a lot of them are very low confidence values for every class. So we simply threshold the predictions and we perform non-max suppression to get rid of some dupicate detections. What we obtain is:
+These are the bounding boxes weighted by their probabilities for containing that object. We get a huge amount of boxes: a lot of them are very low confidence values for every class. So we simply threshold the predictions and we perform non-max suppression to get rid of some dupicate detections.<br>
+What we obtain is the following:
 
 <p align="center">
 <img src='./Miscellaneous/yolo_05.png' width='400'/>
