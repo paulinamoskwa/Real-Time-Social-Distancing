@@ -134,7 +134,8 @@ Displaying all the predictions together gives:
 <img src='./Miscellaneous/yolo_02.png' width='400'/>
 </p>
 
-Now we know basically where the objects are in the image, but we do not know what these objects are. So the next thing for each cell to do is to predict a class probability.
+Now we know basically where the objects are in the image, but we do not know what these objects are.<br>
+So, the next thing for each cell to do is to predict a class probability.
 
 <p align="center">
 <img src='./Miscellaneous/yolo_03.png' width='600'/>
