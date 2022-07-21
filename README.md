@@ -99,7 +99,7 @@ Another limitation, this time unfortunately of the `YOLOv5` model, is the excess
 
 --------------------------------------
 
-## 🔬 **How `YOLOv5` works**
+## 🔬 **About `YOLOv5`**
 
 ### **Two-stage vs. one-stage object detection**
 There are several possible approaches to deal with the object detection problem. There are two main classes of algorithms: two-stage and one-stage object detection. What is different between one and the other? In the case of two-stage object detection algorithms we are dealing with two operations (and therefore two different algorithms):
@@ -120,7 +120,7 @@ Compared to the approach taken by object detection algorithms before YOLO, which
 
 While algorithms like Faster R-CNN work by detecting possible regions of interest using the Region Proposal Network and then perform recognition on those regions separately, YOLO performs all of its predictions in one step. Methods that use Region Proposal Networks thus end up performing multiple iterations for the same image, while YOLO gets away with a single iteration.  
 
-### **YOLO**
+### **How does YOLO work?**
 First of all, YOLO puts a grid on top of the image and each cell in this grid is going to be responsible for predicting a few different things.
 
 <p align="center">
