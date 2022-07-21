@@ -127,7 +127,8 @@ First of all, YOLO puts a grid on top of the image and each cell in this grid is
 <img src='./Miscellaneous/yolo_01.png' width='800'/>
 </p>
 
-Each cell is going to predict a certain amount of bounding boxes and a confidence value for every bounding box. The confidence value is nothing but the probability that a box contains and object. Obviously, some cells have no objects inside and therefore the goal is for them to create boxes with very low conficence value. Displaying all the predictions together gives:
+Each cell is going to predict a certain amount of bounding boxes and a confidence value for every bounding box. The confidence value is nothing but the probability that a box contains and object. Obviously, some cells have no objects inside and therefore the goal is for them to create boxes with very low conficence value.<br>
+Displaying all the predictions together gives:
 
 <p align="center">
 <img src='./Miscellaneous/yolo_02.png' width='400'/>
